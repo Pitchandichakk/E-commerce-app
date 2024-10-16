@@ -1,0 +1,264 @@
+/* top div style starts here */
+.top_one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #16e2536c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}  
+.top_one span{
+    padding-left: 40px;
+}
+/* top div style ends here*/
+
+/* header portion starts here */
+        
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header img{
+    width: 200px;
+}
+header nav{
+    flex: 4;
+}
+header form{
+        flex:2;
+}
+header nav ul{
+display: flex;
+list-style: none;
+column-gap: 36px;
+flex: 7;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.cart_top img{
+    width: 20px;
+    padding-right: 10px;
+    row-gap: 3px;
+    
+}
+/* hover to header nav's */
+a:hover{
+    color: #088179;
+}
+/* hover ends here */
+.inp{
+    width: 270px;
+    padding: 10px;
+    background-image: url("img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 1px;
+    border: 0.5px solid #e9e9e9;
+}
+/* header portion ends here */
+/* div style starts here */
+.top_nav {
+    background-color: #dbdbdb;
+    height: 50px;
+}
+.top_nav a{
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 70px;
+    word-spacing: 10px;
+   
+}
+.top_nav p{
+   align-items: center; 
+   padding-top: 4px;
+}
+/* div style ends here */
+/* login-page style here */
+.log_page{
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 60px;
+      
+}
+.login_section{
+    border: 1px solid gray;
+    padding: 10px 25px;
+    border-radius: 4px;
+    height: 220px;
+}
+.register_section{
+    border: 1px solid gray;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+.login_section input,.register_section input{
+    width: 520px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 4px; 
+    border: 1px solid gray;  
+}
+.login_section button,.register_section button{ 
+    background-color: #088179;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+}
+.register_section{
+    border: 1px solid gray;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+/* login-page style ends here */
+ /* div style starts here */
+ .news_letter{
+    background-color: #409c87c0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight:lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .news_letter div img{
+    width: 30px;
+ }
+.news{
+    display: flex;
+}
+
+ .val{
+    height: 37px;
+    border-color: #F1F1F1;
+    width: 210px;
+    
+ }
+ .news_letter button{
+   padding: 14px 20px;
+   background-color: #000;
+   color: white;
+   border: none;
+ }
+/* div style ends here */
+/* footer style starts here */
+.footer_sections{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content: space-between;
+margin-left: 20px;
+margin-top: 30px; 
+}
+.footer_icons img{
+width: 25px;
+
+}
+.contact{
+width: 350px;
+}
+.address_section,.account_section{
+padding-left: 30px;
+}
+.contact h3{
+color:gray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+}
+.contact p{
+color: gray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 20px;
+}
+.contact h4{
+color: gray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.address_section h2,.account_section h2 ,.payments h2{
+font-weight:lighter ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.address_section ul li a,.account_section ul li a{
+text-decoration: none;
+color: gray;
+}
+.address_section ul,.account_section ul{
+list-style: none;
+line-height: 30px;
+}
+.address_section ul li a:hover{
+    text-decoration: none;
+    color:#808080;
+    padding-left: 5px;
+}
+.account_section ul li a:hover{
+    text-decoration: none;
+    color:#808080;
+    padding-left: 5px;
+}
+.footer_sections h2{
+padding-left: 40px;
+}
+.payments img{
+margin-left: 50px;
+}
+.copy_rights{
+display: flex;
+text-align: center;
+justify-content: space-between;
+color: gray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+padding: 10px 20px;
+}
+/* footer sttyle ends here */
+
+
+/* mediaquery starts here */
+@media only screen and (max-width:600px){
+    header{
+        display: none;
+    }
+    .log_page{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 40px;
+        
+        
+    }
+    .login_section{
+        width: 350px;
+        
+      
+    }
+    .register_section{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .log_page input{
+        width: 280px;
+    }
+    .footer_sections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 100px;
+        text-align: center;
+        
+    }
+    .news_letter{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 180px;
+        text-align: center;
+    }
+    .footer_sections.contact img{
+        align-items: center;
+    }
+}
